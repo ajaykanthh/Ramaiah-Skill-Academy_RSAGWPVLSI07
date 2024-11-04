@@ -8,7 +8,6 @@ This branch focuses on the development and simulation of systems using MATLAB an
 - [PID Transfer Function 2](#pid-transfer-function-2)
 - [Water Tank Temperature Monitoring](#water-tank-temperature-monitoring)
 - [Elevator Application](#elevator-application)
-- [RC Circuit Charging and Discharging of Capacitor](#rc-circuit-charging-and-discharging-of-capacitor)
 - [Washing Machine](#washing-machine)
 
 ## Plot Random numbers
@@ -30,7 +29,7 @@ The control system features a feedback loop comprising a summation block, a PID 
 * *PID Control & Transfer Function:* The error signal is processed by the PID controller, which adjusts the control output.<br/>This output is fed into the transfer function:  *s3−s+10s4+3s2−20/s4+3s2−20s3−s+10​*  to model the system’s dynamic response.<br/>
 * *Visualization*:The processed signal is directed to a scope block to observe and analyze the system’s response to the input over time.
 <p align="center">
-![pid1](https://github.com/user-attachments/assets/b5b2cbd3-632a-465b-8635-d72157fc3341)
+  <img src="https://github.com/user-attachments/assets/b5b2cbd3-632a-465b-8635-d72157fc3341" alt="graph"/>
 </p>
 
 Fig:(Right)Tuned parameters with stable system.(Left):Graph analysis
@@ -43,8 +42,7 @@ File 4:pid_2.slx
    *s3+2s2+s+10s4+3s−20/s4+3s−20s3+2s2+s+10​* <br/>which models the system's response to the control input.<br/>
 * *Graph Visualization:* The system’s output is visualized using a scope block, showing how the system tracks and responds to the input signal over time.<br/>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/683e3962-8283-49e8-b916-8f316852714b" alt="Image 2" width="45%" style="display: inline-block;"/>
-  <img src="https://github.com/user-attachments/assets/0526f7db-9a81-48f1-aeb0-d2d7651364bb" alt="Image 2" width="45%" style="display: inline-block;"/>
+ <img src="https://github.com/user-attachments/assets/013a6995-e91f-41ca-aed2-33e1108b3b89" alt="graph"/>
 </p><br/>
 
 Fig:(Right)Tuned parameters with stable system.(Left):Graph analysis.
