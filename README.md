@@ -30,8 +30,7 @@ The control system features a feedback loop comprising a summation block, a PID 
 * *PID Control & Transfer Function:* The error signal is processed by the PID controller, which adjusts the control output.<br/>This output is fed into the transfer function:  *s3−s+10s4+3s2−20/s4+3s2−20s3−s+10​*  to model the system’s dynamic response.<br/>
 * *Visualization*:The processed signal is directed to a scope block to observe and analyze the system’s response to the input over time.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/50e2504f-879a-4f50-b0c8-0b2c52107b91" alt="Image 2" width="45%" style="display: inline-block;"/>
-<img src="https://github.com/user-attachments/assets/c3c8c681-f021-4cc5-9011-700bc81ccd4b" alt="Image 1" width="45%" style="display: inline-block;"/>
+![pid1](https://github.com/user-attachments/assets/b5b2cbd3-632a-465b-8635-d72157fc3341)
 </p>
 
 Fig:(Right)Tuned parameters with stable system.(Left):Graph analysis
