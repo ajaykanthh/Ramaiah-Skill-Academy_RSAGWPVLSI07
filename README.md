@@ -70,15 +70,6 @@ file name:lift_stateflow.slx
 ![lift](https://github.com/user-attachments/assets/f6e97fec-1476-40af-af0f-674bf0500fba)<br/>
 Fig:Designed stateflow for implemented logic.
 
-
-
-## RC Circuit Charging and Discharging of Capacitor
-file name:RC_calculation.slx
-<br/>
-This file implements a Simulink model to simulate the response of an RC circuit to a step input voltage using a stair generator. The model uses a stair generator with defined time intervals [0,2,4,6,8,10][0,2,4,6,8,10] seconds and corresponding amplitudes [1,5,1,5,0,5][1,5,1,5,0,5] volts to observe the charging and discharging behavior of the capacitor. The simulation results include the charging and discharging curves, allowing for an analysis of the time constant of the RC circuit.<br/>
-<br/>
-![image](https://github.com/user-attachments/assets/dc491667-60e0-463d-84a4-9afec5f69a8a)
-Fig:The graph above represents the charging and discharging curves of the capacitor over time.
 ## Washing Machine
 fil name:washingMachine.slx
 <br/>
